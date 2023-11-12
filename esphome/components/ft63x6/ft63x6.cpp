@@ -106,12 +106,9 @@ void FT63X6Touchscreen::check_touch_() {
         x_resolution = this->y_resolution_;
         y_resolution = this->x_resolution_;
         break;
-      case ROTATE_0_DEGREES:
-      case ROTATE_180_DEGREES:
       case default:
         x_resolution = this->x_resolution_;
         y_resolution = this->y_resolution_;
-        break;
     }
 
   for (uint8_t i = first_touch_id; i < (touch_count + first_touch_id); i++) {

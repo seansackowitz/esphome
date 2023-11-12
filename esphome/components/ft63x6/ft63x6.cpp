@@ -106,7 +106,7 @@ void FT63X6Touchscreen::check_touch_() {
         x_resolution = this->y_resolution_;
         y_resolution = this->x_resolution_;
         break;
-      case default:
+      default:
         x_resolution = this->x_resolution_;
         y_resolution = this->y_resolution_;
     }
